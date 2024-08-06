@@ -145,7 +145,7 @@ namespace Microsoft.Data.Analysis
             int columnIndex = IndexOf(columnName);
             if (columnIndex != -1)
             {
-                RemoveAt(columnIndex); // calls RemoveItem internally
+                RemoveItem(columnIndex); // calls RemoveItem internally
             }
         }
 
